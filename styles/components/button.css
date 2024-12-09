@@ -1,0 +1,31 @@
+:root{
+    --button-border-radius: 99px;
+    --button-weight: 700px;
+    --button-line: 17,6px;    
+    --button-padding: 16px 24px 14px 26px;
+
+    --button-light-color: rgb(251, 252, 254);
+
+    --button-primary-normal: rgb(186, 66, 112);
+
+    --button-primary-hover: rgb(218, 109, 151);
+
+    --button-primary-disabled: rgb(186, 66, 112);
+
+
+    --button-secondary-light-border: 1px solid rgb(251, 252, 254);
+    --button-secondary-light-normal: rgb(27, 38, 47);
+
+    --button-secondary-light-hover: rgb(251, 252, 254);
+    --button-secondary-light-hover-color: rgb(27, 38, 47);  
+
+    --button-secondary-disabled-oppacity: 50%;
+
+
+    --button-secondary-dark-normal: transparent;
+    --button-secondary-dark-normal-color: rgb(27, 38, 47);  
+    --button-secondary-dark-normal-border: 1px solid rgb(54, 83, 107);
+
+    --button-secondary-dark-hover: rgb(54, 83, 107);
+    --button-secondary-dark-hover-color: rgb(251, 252, 254);      
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Manrope:wght@200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--primary-pink: rgb(186, 66, 112);
+	--primary-white: rgb(251, 252, 254);
+
+	--secondary-blue: rgb(54, 83, 107);
+	--secondary-mirage-blue: rgb(27, 38, 47);
+	--secondary-charm-bink: rgb(218, 109, 151);
+	--secondary-light-san-jan-blue: rgb(108, 130, 148);
+
+	--hgroup-weight: 400px;
+
+	--h-font: DM Serif Display;
+	--body-font: Public Sans;
+
+	--h1-large-size: 72px;
+	--h1-large-line: 72px;
+
+	--h1-small-size: 56px;
+	--h1-small-line: 56px;
+
+	--h2-size: 48px;
+	--h2-line: 56px;
+
+	--h3-big-size: 32px;
+	--h3-big-line: 40px;
+
+	--h3-small-size: 18px;
+	--h3-small-line: 25px;
+	--h3-small-weight: 700px;
+
+	--h4-size: 24px;
+	--h4-size: 32px;
+
+	--body-size: 15px;
+	--body-line: 28px;
+}

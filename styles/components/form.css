@@ -1,0 +1,18 @@
+:root{
+    --form-field-input-padding: 0px 201px 64px 20px;
+    --form-field-input-normal-color: rgb(54, 83, 107);
+    --form-hr-input-normal-color: rgb(54, 83, 107);
+    --form-field-input-oppacity: 50%;
+    
+    --form-field-input-active-color: rgb(54, 83, 107);
+
+    --form-field-input-error-color: rgb(255, 0, 0);
+    --form-hr-input-normal-color: rgb(255, 0, 0);
+
+
+    --form-area-input-padding: 0px 223px 17px 20px;
+
+    --form-checkbox: rgb(54, 83, 107);
+    --form-checkbox-disabled-oppacity: 50%;
+    
+}
