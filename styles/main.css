@@ -50,3 +50,39 @@ header {
 nav {
     display: none;
 }
+
+@media screen and (min-width: 768px) {
+    header {
+        justify-content: start; 
+        width: 100vw;  
+        padding: 40px 40px 198px 39px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 40px;
+
+    }
+
+    ul {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--secondary-san-juan-blue);
+        opacity: 70%;
+
+    }
+
+    .menu-burger {
+        display: none;
+    }
+}
+

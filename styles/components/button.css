@@ -29,3 +29,10 @@
     --button-secondary-dark-hover: rgb(54, 83, 107);
     --button-secondary-dark-hover-color: rgb(251, 252, 254);      
 }
+
+.btn-schedule{
+    background-color: var(--button-primary-normal);
+    color: var(--button-light-color);
+    padding: var(--button-padding);
+    border-radius: var(--button-border-radius);
+}
