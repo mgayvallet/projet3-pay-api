@@ -33,12 +33,29 @@ p{
     background-color: var(--secondary-mirage-blue);
     padding: 80px 48px 80px 50px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .divPartnaire{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 39px;
+}
+
+@media screen and (min-width: 768px) {
+    .sectionPartenaire{
+        padding: 88px 116px;
+    }
+    .divPartnaire{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+    }
+    .a-about{
+        margin-left: 164px;
+    }
+    
 }
 
 @media screen and (min-width: 1024px) {
@@ -49,6 +66,19 @@ p{
     }
     p{
         text-align: start;
+        margin-left: 50px;
+    }
+    .sectionPartenaire{
+        flex-direction: row-reverse;
+        gap: 150px;
+    }
+    .divPartnaire{
+        margin-top: 30px;
+    }
+    .pPart{
+        text-align: start;
+    }
+    .a-about{
         margin-left: 50px;
     }
 }

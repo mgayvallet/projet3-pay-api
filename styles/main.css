@@ -129,7 +129,15 @@ h2{
         top: 0;
         right: 0px;
     }
-    
+    h2{
+        text-align: center;
+        font-size: var(--h2-size);
+        line-height: var(--h2-line-height);
+    }
+    .pPart{
+        width: 446px;
+
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -145,4 +153,5 @@ h2{
         line-height: var(--h1-large-line-height);
         font-weight: var(--hgroup-weight);
     }
+    
 }
