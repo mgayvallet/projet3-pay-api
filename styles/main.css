@@ -51,6 +51,21 @@ nav {
     display: none;
 }
 
+h1 {
+    color: var(--secondary-san-juan-blue);
+    font-size: var(--h3-big-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--h4-line-height);
+    letter-spacing: -0.25px;
+    align-items: center;
+    width: 327px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
     header {
         justify-content: start; 
@@ -84,5 +99,32 @@ nav {
     .menu-burger {
         display: none;
     }
+    h1{
+        width: 373px;
+    }
+    form{
+        flex-direction: row;
+        position: relative;
+    }
+    .input-btn{
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+    
 }
 
+@media screen and (min-width: 1024px) {
+    header{
+        padding-left: 165px;
+        padding-right: 165px;
+        background-color: transparent;
+    }
+    h1{
+        text-align: start;
+        width: 546px;
+        font-size: var(--h1-large-size);
+        line-height: var(--h1-large-line-height);
+        font-weight: var(--hgroup-weight);
+    }
+}

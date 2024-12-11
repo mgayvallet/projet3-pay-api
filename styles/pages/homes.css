@@ -1,0 +1,42 @@
+
+.firstSec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(0%, -25%);
+    text-align: center;
+
+}
+
+.contenueSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    margin-top: 24px;
+    color: var(--secondary-light-san-juan-blue);
+    size: var(--p-size);
+    font-family: var(--p-font-family);
+    line-height: var(--p-line-heigh);
+    font-weight: var(--hgroup-weight);
+}
+
+.LienContact{
+    font-weight: var(--h3-small-weight);
+    text-decoration: none;
+    color: var(--secondary-light-san-juan-blue);
+}
+
+@media screen and (min-width: 1024px) {
+    .firstSec{
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 15%;
+    }
+    p{
+        text-align: start;
+        margin-left: 50px;
+    }
+}

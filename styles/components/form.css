@@ -1,18 +1,45 @@
 :root{
-    --form-field-input-padding: 0px 201px 64px 20px;
-    --form-field-input-normal-color: rgb(54, 83, 107);
-    --form-hr-input-normal-color: rgb(54, 83, 107);
-    --form-field-input-oppacity: 50%;
-    
-    --form-field-input-active-color: rgb(54, 83, 107);
+    --padding-text-field: 0px 201px 64px 20px;
+    --normal-state-placeholder: #9ba9b4;
+    --normal-state-border-bottom: 1px solid #9ba9b4;
 
-    --form-field-input-error-color: rgb(255, 0, 0);
-    --form-hr-input-normal-color: rgb(255, 0, 0);
+    --active-state-placeholder: #36536B;
+    --active-state-border-bottom: 1px solid #36536B;
+
+    --normal-state-name-placeholder: #9ba9b4;
+    --normal-state-name-border-bottom: 1px solid #9ba9b4;
+
+    --active-state-name-placeholder: #36536B;
+    --active-state-name-border-bottom: 1px solid #36536B;
+
+    --error-placeholder: #FE8081;
+    --error-border-bottom: 1px solid #FE8081;
+}
 
 
-    --form-area-input-padding: 0px 223px 17px 20px;
+input {
+    border-radius:  99px;
+    padding:  10px 50px 10px 10px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 10px 10px 25px -10px #000;
+    margin: 24px 0 0 0;
 
-    --form-checkbox: rgb(54, 83, 107);
-    --form-checkbox-disabled-oppacity: 50%;
-    
+}
+
+input::placeholder {
+    color: var(--normal-state-placeholder);
+    font-family: "Public Sans", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    input{
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    input{
+        padding-right: 300px;
+    }
 }

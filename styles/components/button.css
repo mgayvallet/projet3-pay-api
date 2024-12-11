@@ -30,9 +30,15 @@
     --button-secondary-dark-hover-color: rgb(251, 252, 254);      
 }
 
-.btn-schedule{
+.primay-normal-state-light{
     background-color: var(--button-primary-normal);
     color: var(--button-light-color);
     padding: var(--button-padding);
     border-radius: var(--button-border-radius);
+    border-style: none;
+    font-family: "Public Sans", sans-serif;
+}
+
+.primay-normal-state-light:hover{
+    background-color: var(--button-primary-hover);
 }
