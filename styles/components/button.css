@@ -42,3 +42,15 @@
 .primay-normal-state-light:hover{
     background-color: var(--button-primary-hover);
 }
+
+.a-about{
+    text-decoration: none;
+    color: var(--button-light-color);
+    border: var(--button-secondary-light-border);
+    border-radius: var(--button-border-radius);
+    padding: 16px 32px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 99px;
+    font-family: "Public Sans", sans-serif;
+}

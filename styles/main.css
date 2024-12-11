@@ -66,6 +66,24 @@ form{
     flex-direction: column;
 }
 
+h2{
+    color: var(--primary-link-water-white);
+    font-size: 36px;
+    line-height: var(--h2-line-height);
+    font-family: "DM Serif Display", serif;
+    width: 100%;
+    margin-top: 56px;
+    font-weight: var(--hgroup-weight);
+}
+
+.pPart{
+    text-align: center;
+    width: 100%;
+    margin-top: 16px;
+    font-family: var(--p-font-family);
+    margin-bottom: 60px;
+}
+
 @media screen and (min-width: 768px) {
     header {
         justify-content: start; 
