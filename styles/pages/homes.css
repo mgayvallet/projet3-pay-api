@@ -91,6 +91,8 @@ p{
     flex-direction: column;
     gap: 48px;
     margin-top: 80px;
+    margin-left: 165px;
+    margin-right: 165px;
 }
 
 .secsAdvantage{
