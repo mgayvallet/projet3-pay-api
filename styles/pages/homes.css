@@ -75,6 +75,40 @@ p{
     align-items: center;
 }
 
+.rondAvantage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    background-color: var(--secondary-light-san-juan-blue);
+    margin-bottom: 33px;
+}
+
+.sectionAdvantage{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-top: 80px;
+}
+
+.secsAdvantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hgroupAdvantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phHgroupAdvantage{
+    text-align: center;
+    width: 80%;
+}
 
 @media screen and (min-width: 768px) {
     .sectionPartenaire{
