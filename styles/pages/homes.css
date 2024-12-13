@@ -117,6 +117,11 @@ p{
     font-family: "Public Sans", sans-serif;
 }
 
+.h2Ready{
+    color: var(--secondary-san-juan-blue);
+    margin-top: 100px;
+}
+
 @media screen and (min-width: 768px) {
     .sectionPartenaire{
         padding: 88px 116px;
@@ -141,7 +146,9 @@ p{
     .sectionAdvantage{
         gap: 10px;
     }
-
+    .input-email{
+        width: 445px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -188,5 +195,20 @@ p{
     }
     .sectionAdvantage{
         gap: 30px;
+    }
+    .lastSecReady{
+        margin-right: 165px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-btn{
+        margin-top: 110px;
+    }
+    .input-email{
+        margin-top: 110px;
+        align-items: center;
     }
 }
