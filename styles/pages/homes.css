@@ -44,6 +44,38 @@ p{
     gap: 39px;
 }
 
+.secSolution{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+.secImplement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secSimple{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pImplement,
+.pSimple{
+    text-align: center;
+    width: 85%;
+}
+
+.hgroupSolus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 @media screen and (min-width: 768px) {
     .sectionPartenaire{
         padding: 88px 116px;
@@ -64,7 +96,7 @@ p{
         justify-content: center;
         gap: 15%;
     }
-    p{
+    .p{
         text-align: start;
         margin-left: 50px;
     }
@@ -80,5 +112,24 @@ p{
     }
     .a-about{
         margin-left: 50px;
+    }
+    .secSolution{
+        padding-left: 165px;
+    }
+    .secImplement{
+        flex-direction: row;
+        gap: 15%;        
+    }
+    .secSimple{
+        flex-direction: row-reverse;
+        margin-right: 180px;
+        margin-left: 50px;
+    }
+    .pImplement{
+        width: 60%;
+        text-align: left;
+    }
+    .hgroupSolus{
+        align-items: flex-start;
     }
 }

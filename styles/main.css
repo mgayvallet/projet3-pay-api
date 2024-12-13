@@ -84,6 +84,13 @@ h2{
     margin-bottom: 60px;
 }
 
+h3{
+    color: var(--secondary-san-juan-blue);
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "DM Serif Display", serif;
+}
+
 @media screen and (min-width: 768px) {
     header {
         justify-content: start; 
@@ -153,5 +160,5 @@ h2{
         line-height: var(--h1-large-line-height);
         font-weight: var(--hgroup-weight);
     }
-    
+
 }
