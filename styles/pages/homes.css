@@ -110,6 +110,13 @@ p{
     width: 80%;
 }
 
+.h3Adv{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700px;
+    font-family: "Public Sans", sans-serif;
+
+}
 @media screen and (min-width: 768px) {
     .sectionPartenaire{
         padding: 88px 116px;
@@ -121,7 +128,22 @@ p{
     .a-about{
         margin-left: 164px;
     }
-    
+    .rondAvantage{
+        width: 88px;
+        height: 88px;
+    }
+    .hgroupAdvantage{
+
+    }
+    .sectionAdvantage{
+        flex-direction: row;
+    }
+    .phHgroupAdvantage{
+        width: 90%;
+    }
+    .sectionAdvantage{
+        gap: 10px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -165,5 +187,8 @@ p{
     }
     .hgroupSolus{
         align-items: flex-start;
+    }
+    .sectionAdvantage{
+        gap: 30px;
     }
 }
