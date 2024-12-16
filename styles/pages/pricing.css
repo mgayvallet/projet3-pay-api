@@ -75,6 +75,7 @@ article > section > ul > li{
 
 .liNonValider{
     opacity: 50%;
+    margin-left: 28%;
 }
 
 @media screen and (min-width: 768px) {
