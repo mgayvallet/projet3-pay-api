@@ -117,46 +117,51 @@ p{
     font-family: "Public Sans", sans-serif;
 }
 
+.pPart{
+    text-align: center;
+    width: 100%;
+    margin-top: 16px;
+    font-family: var(--p-font-family);
+    margin-bottom: 60px;
+}
+
 .h2Ready{
     color: var(--secondary-san-juan-blue);
     margin-top: 100px;
 }
 
-footer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+footer {
     background-color: var(--secondary-mirage-blue);
-}
-
-.div-footer-img{
-    margin-top: 41px;
-}
-
-.lien-pages-footer{
+    padding: 41px 0 55px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    gap: 20px;
-    margin-bottom: 39px;
+    justify-content: center;
+    margin-top: 5rem;
 }
 
-.a-footer{
-    text-decoration: none;
-    color: var(--secondary-san-juan-blue);
-    font-weight: 700;
-    font-family: "Public Sans", sans-serif;
-}
-
-.div-lien-footer{
+.lien-pages-footer {
     display: flex;
-    flex-direction: row;
-    gap: 24px;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 57px;
+    margin: 2.5rem 0;
 }
+
+.a-footer {
+    text-decoration: none;
+    color: var(--primary-link-water-white);
+    font-family: "Public Sans", sans-serif;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 1.5rem;
+}
+
+.div-lien-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
 
 @media screen and (min-width: 768px) {
     .sectionPartenaire{
@@ -184,6 +189,34 @@ footer{
     }
     .input-email{
         width: 445px;
+    }
+    .pPart{
+        width: 446px;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+
+    .div-footer-img {
+        display: flex;
+        align-items: center;
+    }
+
+    .lien-pages-footer {
+        flex-direction: row;
+    }
+
+    .a-footer {
+        margin: 0 2.5rem;
+    }
+
+    .div-lien-footer {
+        width: 15%;
+        margin-right: 2.5rem;
     }
 }
 
@@ -245,8 +278,24 @@ footer{
     .input-btn{
         margin-top: 110px;
     }
+    .test{
+        margin-top: 24px;
+    }
     .input-email{
         margin-top: 110px;
         align-items: center;
+    }
+    footer {
+        padding: 0 10rem;
+    }
+
+    .div-footer-img {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .div-lien-footer {
+        width: 8%;
     }
 }

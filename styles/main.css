@@ -76,13 +76,6 @@ h2{
     font-weight: var(--hgroup-weight);
 }
 
-.pPart{
-    text-align: center;
-    width: 100%;
-    margin-top: 16px;
-    font-family: var(--p-font-family);
-    margin-bottom: 60px;
-}
 
 h3{
     color: var(--secondary-san-juan-blue);
