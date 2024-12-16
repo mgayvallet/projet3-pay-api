@@ -1,0 +1,91 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+}
+
+article{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 80px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+article > section > h2{
+    text-align: center;
+    color: var(--primary-dark-pink);
+    font-family: "DM Serif Display", serif;
+    font-size: var(--h4-size);
+    line-height: var(--h4-line-height);
+}
+
+article > section > p {
+    font-family: "Roboto";
+    width: 95%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+article > section > h3{
+    font-size: var(--h2-size);
+    line-height: var(--h1-large-line-height);
+}
+
+article > section > hr{
+    text-decoration: none;
+    border: none;
+    height: 1px;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-san-juan-blue);
+}
+
+article > section > ul{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+article > section > ul > li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15%;
+}
+
+.liNonValider{
+    opacity: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    article{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lastSecReady{
+        width: 80%;
+    }
+}

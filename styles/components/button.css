@@ -54,3 +54,20 @@
     margin-left: 99px;
     font-family: "Public Sans", sans-serif;
 }
+
+article > section > a{
+    text-decoration: none;
+    color: var(--secondary-san-juan-blue);
+    padding: var(--button-padding);
+    border-radius: var(--button-border-radius);
+    border: 1px solid #36536B;
+    margin-top: 10%;
+}
+
+@media screen and (min-width: 768px) {
+    article > section > a:hover{
+        background-color: #36536B;
+        color: var(--button-light-color);
+    }
+
+}

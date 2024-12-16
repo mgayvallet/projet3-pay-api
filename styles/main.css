@@ -5,6 +5,8 @@
 :root{
     font-family: "Public Sans", sans-serif;
     font-family: "DM Serif Display", serif;
+    font-family: "Roboto";
+
     --primary-dark-pink: #ba4270;
     --primary-link-water-white: #fbfcfe;
     --secondary-san-juan-blue: #36536b;
@@ -108,7 +110,7 @@ h3{
         list-style: none;
     }
 
-    a {
+    .a {
         text-decoration: none;
         color: var(--secondary-san-juan-blue);
         opacity: 70%;
