@@ -55,6 +55,7 @@ textarea::placeholder {
 	flex-direction: row;
 	align-items: center;
 	margin-top: 5%;
+    gap: 5%;
 }
 
 .checkbox {
