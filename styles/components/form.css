@@ -1,80 +1,89 @@
-:root{
-    --padding-text-field: 0px 201px 64px 20px;
-    --normal-state-placeholder: #9ba9b4;
-    --normal-state-border-bottom: 1px solid #9ba9b4;
+:root {
+	--padding-text-field: 0px 201px 64px 20px;
+	--normal-state-placeholder: #9ba9b4;
+	--normal-state-border-bottom: 1px solid #9ba9b4;
 
-    --active-state-placeholder: #36536B;
-    --active-state-border-bottom: 1px solid #36536B;
+	--active-state-placeholder: #36536b;
+	--active-state-border-bottom: 1px solid #36536b;
 
-    --normal-state-name-placeholder: #9ba9b4;
-    --normal-state-name-border-bottom: 1px solid #9ba9b4;
+	--normal-state-name-placeholder: #9ba9b4;
+	--normal-state-name-border-bottom: 1px solid #9ba9b4;
 
-    --active-state-name-placeholder: #36536B;
-    --active-state-name-border-bottom: 1px solid #36536B;
+	--active-state-name-placeholder: #36536b;
+	--active-state-name-border-bottom: 1px solid #36536b;
 
-    --error-placeholder: #FE8081;
-    --error-border-bottom: 1px solid #FE8081;
+	--error-placeholder: #fe8081;
+	--error-border-bottom: 1px solid #fe8081;
 }
 
-
 input {
-    border-radius:  99px;
-    padding:  10px 50px 10px 10px;
-    border: none;
-    background-color: #fff;
-    box-shadow: 10px 10px 25px -10px #000;
-    margin: 24px 0 0 0;
-
+	border-radius: 99px;
+	padding: 10px 50px 10px 10px;
+	border: none;
+	background-color: #fff;
+	box-shadow: 10px 10px 25px -10px #000;
+	margin: 24px 0 0 0;
 }
 
 input::placeholder {
-    color: var(--normal-state-placeholder);
-    font-family: "Public Sans", sans-serif;
+	color: var(--normal-state-placeholder);
+	font-family: "Public Sans", sans-serif;
 }
 
-
-.inputContact{
-    box-shadow: none;
-    border-radius: 0;
-    width: 90%;
-    border-bottom: solid 1px var(--active-state-placeholder);
+.inputContact {
+	box-shadow: none;
+	border-radius: 0;
+	width: 90%;
+	border-bottom: solid 1px var(--active-state-placeholder);
 }
 
-textarea{
-    border: none;
-    margin-top: 5%;
-    padding-bottom: 50px;
-    padding-left: 10px;
-    padding: 10px 0 50px 10px;
+textarea {
+	border: none;
+	margin-top: 5%;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding: 10px 0 50px 10px;
 }
 
-textarea::placeholder{
-    color: var(--normal-state-placeholder)
+textarea::placeholder {
+	color: var(--normal-state-placeholder);
 }
 
-.labelCheckbox{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 5%;
+.labelCheckbox {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.checkbox {
+	border: none;
+	color: var(--active-state-placeholder);
+}
+
+.checkbox {
+	margin: 0;
+	width: 30px;
+	height: 30px;
+	box-shadow: none;
 }
 
 .checkbox{
-    border: none;
-    color: var(--active-state-placeholder);
+    background-color: red;
 }
 
-
-
 @media screen and (min-width: 768px) {
-    input{
-        padding-bottom: 20px;
-    }
+	input {
+		padding-bottom: 20px;
+	}
+	.inputContact {
+		width: 70%;
+	}
+	.labelCheckbox {
+		width: 70%;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-    input{
-        padding-right: 300px;
-    }
 }
