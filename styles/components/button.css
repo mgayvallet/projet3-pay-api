@@ -64,6 +64,17 @@ article > section > a{
     margin-top: 10%;
 }
 
+.submitContact{
+    text-decoration: none;
+    padding: 16px 49px 14px 51px;
+    background-color: transparent;
+    color: #36536B;
+    border-radius: 999999999999999px;
+    border: 1px solid #36536B;
+    margin-top: 10%;
+    font-weight: 400;
+}
+
 @media screen and (min-width: 768px) {
     article > section > a:hover{
         background-color: #36536B;

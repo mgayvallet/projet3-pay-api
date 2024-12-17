@@ -32,6 +32,41 @@ input::placeholder {
     font-family: "Public Sans", sans-serif;
 }
 
+
+.inputContact{
+    box-shadow: none;
+    border-radius: 0;
+    width: 90%;
+    border-bottom: solid 1px var(--active-state-placeholder);
+}
+
+textarea{
+    border: none;
+    margin-top: 5%;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding: 10px 0 50px 10px;
+}
+
+textarea::placeholder{
+    color: var(--normal-state-placeholder)
+}
+
+.labelCheckbox{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.checkbox{
+    border: none;
+    color: var(--active-state-placeholder);
+}
+
+
+
 @media screen and (min-width: 768px) {
     input{
         padding-bottom: 20px;

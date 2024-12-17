@@ -28,35 +28,35 @@
 	</header>
     <main>
         <h1>Submit a help request and we’ll get in touch shortly.</h1>
-        <form action="get">
-            <input type="text" placeholder="Name" required>
-            <hr>
-            <input type="email" placeholder="Email Address" required>
-            <hr>
-            <input type="text" placeholder="Company Name" required>
-            <hr>
-            <input type="text" placeholder="Title" required>
-            <hr>
-            <textarea name="Message" id="Message" placeholder="Message" required></textarea>
-            <hr>
-            <label for="checkbox">
-                <input type="checkbox" name="checkbox">
-                <p>Stay up-to-date with company announcements and updates to our API</p>
-            </label>
-            <button type="submit">Submit</button>
-        </form>
         <section>
-            <h2>Join thousands of innovators already building with us</h2>
-            <div class="divPartnaire">
-                <img src="../asset/teslaDark.svg" alt="tesla">
-                <img src="../asset/microsoftDark.svg" alt="microsoft">
-                <img src="../asset/hpDark.svg" alt="hewlettPackard">
-                <img src="../asset/oracleDark.svg" alt="oracle">
-                <img src="../asset/googleDark.svg" alt="google">
-                <img src="../asset/nvidiaDark.svg" alt="nvidia">
-            </div>
+            <form action="get">
+                <input type="text" placeholder="Name" required class="inputContact">
+                <input type="email" placeholder="Email Address" required class="inputContact">
+                <input type="text" placeholder="Company Name" required class="inputContact">
+                <input type="text" placeholder="Title" required class="inputContact">
+                <textarea name="Message" id="Message" placeholder="Message" required class="inputContact"></textarea>
+                <label for="checkbox" class="labelCheckbox">
+                    <input type="checkbox" name="checkbox" class="checkbox">
+                    Stay up-to-date with company announcements and updates to our API
+                </label>
+                <div class="divSubmitContact">
+                    <button type="submit" class="submitContact">Submit</button>
+                </div>
+            </form>
+            <section class="sectionPartenaireBis">
+                <h2>Join thousands of innovators already building with us</h2>
+                <div class="divPartnaire">
+                    <img src="../asset/teslaDark.svg" alt="tesla">
+                    <img src="../asset/microsoftDark.svg" alt="microsoft">
+                    <img src="../asset/hpDark.svg" alt="hewlettPackard">
+                    <img src="../asset/oracleDark.svg" alt="oracle">
+                    <img src="../asset/googleDark.svg" alt="google">
+                    <img src="../asset/nvidiaDark.svg" alt="nvidia">
+                </div>
+            </section>
         </section>
-    
+
+
         <section class="firstSec lastSecReady">
             <h2 class="h2Ready">Ready to start?</h2>
             <form action="get">
