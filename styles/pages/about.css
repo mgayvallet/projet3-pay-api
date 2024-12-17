@@ -22,6 +22,54 @@ section > div > p{
     width: 90%;
 }
 
+.imgGroupe{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+hr{
+    text-decoration: none;
+    border: none;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-san-juan-blue);
+}
+
+.div-about-ul{
+    margin: 3rem 0;
+}
+
+.ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.li-nom {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #36536B;
+    font-family: "Public sans", sans-serif;
+}
+
+.li-chiffre {
+    font-size: 56px;
+    font-weight: 400;
+    color: #BA4270;
+    line-height: 72px;
+}
+
+.lastSecCult{
+    margin-bottom: 15%;
+}
+
 @media screen and (min-width: 768px) {
     h1{
         width: 85%;
@@ -47,5 +95,17 @@ section > div > p{
 
     section > div > p{
         text-align: left;
+    }
+    .ul{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 5%;
+    }
+    .imgGroupe{
+        height: 20%;    
+    }
+
+    .divP{
+        width: 100%;
     }
 }
