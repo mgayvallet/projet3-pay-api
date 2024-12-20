@@ -31,30 +31,31 @@
 			<section class="grilleContzct">
 				<form action="get">
 					<input type="text" placeholder="Name" required class="inputContact" aria-label="this is a text field where you must enter your name"/>
+                    <span class="error" aria-live="polite">This field can’t be empty</span>
 					<input
 						type="email"
 						placeholder="Email Address"
 						required
 						class="inputContact"
                         aria-label="this is a text field where you must enter your email address"
-                        aria-live="polite"
 					/>
+                    <span class="error" aria-live="polite">This field can’t be empty</span>
 					<input
 						type="text"
 						placeholder="Company Name"
 						required
 						class="inputContact"
                         aria-label="this is a text field where you must enter your Company Name"
-                        aria-live="polite"
 					/>
+                    <span class="error" aria-live="polite">This field can’t be empty</span>
 					<input
 						type="text"
 						placeholder="Title"
 						required
 						class="inputContact"
                         aria-label="this is a text field where you must enter the title of the message"
-                        aria-live="polite"
 					/>
+                    <span class="error" aria-live="polite">This field can’t be empty</span>
 					<textarea
 						name="Message"
 						id="Message"
@@ -62,12 +63,13 @@
 						required
 						class="inputContact"
                         aria-label="this is a text field where you must enter the message"
-                        aria-live="polite"
 					></textarea>
-					<label for="checkbox" class="labelCheckbox">
-						<input type="checkbox" name="checkbox" class="checkbox" aria-label="this is a checkbox of Stay up-to-date with company announcements and updates to our API"/>
-                        <p class="pCheck">Stay up-to-date with company announcements and updates to our API</p>
-					</label>
+                    <span class="error" aria-live="polite">This field can’t be empty</span>
+                    <label class="labelCheckbox">
+                        <input type="checkbox" class="checkbox" />
+                        <span class="custom-checkbox"></span>
+                        Stay up-to-date with company announcements and updates to our API
+                    </label>
 					<div class="divSubmitContact">
 						<button type="submit" class="submitContact" aria-label="this is a button that sends Formulaire">Submit</button>
 					</div>

@@ -1,301 +1,301 @@
-
-.firstSec{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    transform: translate(0%, -25%);
-    text-align: center;
-
+.firstSec {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	transform: translate(0%, -25%);
+	text-align: center;
 }
 
-.contenueSec{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.contenueSec {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-p{
-    margin-top: 24px;
-    color: var(--secondary-light-san-juan-blue);
-    size: var(--p-size);
-    font-family: var(--p-font-family);
-    line-height: var(--p-line-heigh);
-    font-weight: var(--hgroup-weight);
+p {
+	margin-top: 24px;
+	color: var(--secondary-light-san-juan-blue);
+	size: var(--p-size);
+	font-family: var(--p-font-family);
+	line-height: var(--p-line-heigh);
+	font-weight: var(--hgroup-weight);
 }
 
-.LienContact{
-    font-weight: var(--h3-small-weight);
-    text-decoration: none;
-    color: var(--secondary-light-san-juan-blue);
+.LienContact {
+	font-weight: var(--h3-small-weight);
+	text-decoration: none;
+	color: var(--secondary-light-san-juan-blue);
 }
 
-.sectionPartenaire{
-    background-color: var(--secondary-mirage-blue);
-    padding: 80px 48px 80px 50px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.sectionPartenaire {
+	background-color: var(--secondary-mirage-blue);
+	padding: 80px 48px 80px 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.divPartnaire{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 39px;
+.divPartnaire {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 39px;
 }
 
-.secSolution{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    margin-top: 80px;
+.secSolution {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+	margin-top: 80px;
 }
 
-.secImplement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.secImplement {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.secSimple{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.secSimple {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .pImplement,
-.pSimple{
-    text-align: center;
-    width: 85%;
+.pSimple {
+	text-align: center;
+	width: 85%;
 }
 
-.hgroupSolus{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hgroupSolus {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.rondAvantage{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 106px;
-    height: 106px;
-    border-radius: 50%;
-    background-color: var(--secondary-light-san-juan-blue);
-    margin-bottom: 33px;
+.rondAvantage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 106px;
+	height: 106px;
+	border-radius: 50%;
+	background-color: var(--secondary-light-san-juan-blue);
+	margin-bottom: 33px;
 }
 
-.sectionAdvantage{
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    margin-top: 80px;
+.sectionAdvantage {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+	margin-top: 80px;
 }
 
-.secsAdvantage{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.secsAdvantage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.hgroupAdvantage{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hgroupAdvantage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.phHgroupAdvantage{
-    text-align: center;
-    width: 80%;
+.phHgroupAdvantage {
+	text-align: center;
+	width: 80%;
 }
 
-.h3Adv{
-    font-size: 16px;
-    line-height: 25px;
-    font-weight: 700px;
-    font-family: "Public Sans", sans-serif;
+.h3Adv {
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 700px;
+	font-family: "Public Sans", sans-serif;
 }
 
-.pPart{
-    text-align: center;
-    width: 100%;
-    margin-top: 16px;
-    font-family: var(--p-font-family);
-    margin-bottom: 60px;
+.pPart {
+	text-align: center;
+	width: 100%;
+	margin-top: 16px;
+	font-family: var(--p-font-family);
+	margin-bottom: 60px;
 }
 
-.h2Ready{
-    color: var(--secondary-san-juan-blue);
-    margin-top: 100px;
+.h2Ready {
+	color: var(--secondary-san-juan-blue);
+	margin-top: 100px;
 }
-
 
 footer {
-    background-color: var(--secondary-mirage-blue);
-    padding: 41px 0 55px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
+	background-color: var(--secondary-mirage-blue);
+	padding: 41px 0 55px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5rem;
 }
 
 .lien-pages-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2.5rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2.5rem 0;
 }
 
 .a-footer {
-    text-decoration: none;
-    color: var(--primary-link-water-white);
-    font-family: "Public Sans", sans-serif;
-    font-weight: var(--font-weight-bold);
-    margin-bottom: 1.5rem;
+	text-decoration: none;
+	color: var(--primary-link-water-white);
+	font-family: "Public Sans", sans-serif;
+	font-weight: var(--font-weight-bold);
+	margin-bottom: 1.5rem;
+}
+
+a:hover {
+	color: red;
 }
 
 .div-lien-footer {
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
 }
 
-
 @media screen and (min-width: 768px) {
-    .sectionPartenaire{
-        padding: 88px 116px;
-    }
-    .divPartnaire{
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 0;
-    }
-    .a-about{
-        margin-left: 164px;
-    }
-    .rondAvantage{
-        width: 88px;
-        height: 88px;
-    }
-    .sectionAdvantage{
-        flex-direction: row;
-    }
-    .phHgroupAdvantage{
-        width: 90%;
-    }
-    .sectionAdvantage{
-        gap: 10px;
-    }
-    .input-email{
-        width: 445px;
-    }
-    .pPart{
-        width: 446px;
-    }
-    footer {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 0 2.5rem;
-    }
+	.sectionPartenaire {
+		padding: 88px 116px;
+	}
+	.divPartnaire {
+		grid-template-columns: 1fr 1fr 1fr;
+		padding: 0;
+	}
+	.a-about {
+		margin-left: 164px;
+	}
+	.rondAvantage {
+		width: 88px;
+		height: 88px;
+	}
+	.sectionAdvantage {
+		flex-direction: row;
+	}
+	.phHgroupAdvantage {
+		width: 90%;
+	}
+	.sectionAdvantage {
+		gap: 10px;
+	}
+	.input-email {
+		width: 445px;
+	}
+	.pPart {
+		width: 446px;
+	}
+	footer {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		padding: 0 2.5rem;
+	}
 
-    .div-footer-img {
-        display: flex;
-        align-items: center;
-    }
+	.div-footer-img {
+		display: flex;
+		align-items: center;
+	}
 
-    .lien-pages-footer {
-        flex-direction: row;
-    }
+	.lien-pages-footer {
+		flex-direction: row;
+	}
 
-    .a-footer {
-        margin: 0 2.5rem;
-    }
+	.a-footer {
+		margin: 0 2.5rem;
+	}
 
-    .div-lien-footer {
-        width: 15%;
-        margin-right: 2.5rem;
-    }
+	.div-lien-footer {
+		width: 15%;
+		margin-right: 2.5rem;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-    .firstSec{
-        flex-direction: row-reverse;
-        justify-content: center;
-        gap: 15%;
-    }
-    .p{
-        text-align: start;
-        margin-left: 50px;
-    }
-    .sectionPartenaire{
-        flex-direction: row-reverse;
-        gap: 150px;
-    }
-    .divPartnaire{
-        margin-top: 30px;
-    }
-    .pPart{
-        text-align: start;
-    }
-    .a-about{
-        margin-left: 50px;
-    }
-    .secSolution{
-        padding-left: 165px;
-    }
-    .secImplement{
-        flex-direction: row;
-        gap: 15%;        
-    }
-    .secSimple{
-        flex-direction: row-reverse;
-        margin-right: 180px;
-        margin-left: 50px;
-    }
-    .pImplement{
-        width: 60%;
-        text-align: left;
-    }
-    .hgroupSolus{
-        align-items: flex-start;
-    }
-    .sectionAdvantage{
-        margin-left: 165px;
-        margin-right: 165px;
-        gap: 30px;
-    }
-    .lastSecReady{
-        margin-right: 165px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        justify-content: center;
-    }
-    .input-btn{
-        margin-top: 110px;
-    }
-    .test{
-        margin-top: 24px;
-    }
-    .input-email{
-        margin-top: 110px;
-        align-items: center;
-    }
-    footer {
-        padding: 0 10rem;
-    }
+	.firstSec {
+		flex-direction: row-reverse;
+		justify-content: center;
+		gap: 15%;
+	}
+	.p {
+		text-align: start;
+		margin-left: 50px;
+	}
+	.sectionPartenaire {
+		flex-direction: row-reverse;
+		gap: 150px;
+	}
+	.divPartnaire {
+		margin-top: 30px;
+	}
+	.pPart {
+		text-align: start;
+	}
+	.a-about {
+		margin-left: 50px;
+	}
+	.secSolution {
+		padding-left: 165px;
+	}
+	.secImplement {
+		flex-direction: row;
+		gap: 15%;
+	}
+	.secSimple {
+		flex-direction: row-reverse;
+		margin-right: 180px;
+		margin-left: 50px;
+	}
+	.pImplement {
+		width: 60%;
+		text-align: left;
+	}
+	.hgroupSolus {
+		align-items: flex-start;
+	}
+	.sectionAdvantage {
+		margin-left: 165px;
+		margin-right: 165px;
+		gap: 30px;
+	}
+	.lastSecReady {
+		margin-right: 165px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		justify-content: center;
+	}
+	.input-btn {
+		margin-top: 110px;
+	}
+	.test {
+		margin-top: 24px;
+	}
+	.input-email {
+		margin-top: 110px;
+		align-items: center;
+	}
+	footer {
+		padding: 0 10rem;
+	}
 
-    .div-footer-img {
-        display: flex;
-        align-items: center;
-        width: 50%;
-    }
+	.div-footer-img {
+		display: flex;
+		align-items: center;
+		width: 50%;
+	}
 
-    .div-lien-footer {
-        width: 8%;
-    }
+	.div-lien-footer {
+		width: 8%;
+	}
 }

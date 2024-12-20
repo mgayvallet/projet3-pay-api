@@ -59,19 +59,53 @@ textarea::placeholder {
 }
 
 .checkbox {
-	border: none;
-	color: var(--active-state-placeholder);
+    display: none; 
 }
 
-.checkbox {
-	margin: 0;
-	width: 30px;
-	height: 30px;
-	box-shadow: none;
+.custom-checkbox {
+    width: 35px;
+    height: 30px;
+    background-color: transparent; 
+    background-color: #36536b;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    opacity: 25%;
 }
 
-.checkbox{
-    background-color: red;
+.checkbox:checked + .custom-checkbox {
+    background-color: #BA4270; 
+    border: none;
+    opacity: 100%;
+}
+
+.checkbox:checked + .custom-checkbox::after {
+    content: "✓";
+}
+
+.submitContact:hover{
+    background-color: var(--active-state-placeholder);
+    color: white;
+}
+
+.error{
+    color: red;
+    display: none;
+    margin-top: 10px;
+    margin-right: 35%;
+    font-family: "Public Sans", sans-serif;
+}
+
+.inputContact:invalid{
+    border-bottom: 1px solid red;
+}
+
+.inputContact:invalid::placeholder{
+    color: red;
+}
+
+.inputContact:invalid + .error{
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
